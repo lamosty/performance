@@ -12,8 +12,8 @@ In order to customize the look and feel of user’s instance of the website, the
 
 Moreover, when a user has a high-traffic website, his web delivering server is not able to keep up with all the requests resulting in a slow, unresponsive website. The reader might assume that the problems would be solved by increasing plugins quality. While the previous statement is true, it is usually not viable, mainly due to a reason that work of an experienced web developer is relatively expensive. In many cases, upgrading the server and/or getting additional one(s) is the preferred way. In our work, we are concerned with optimizing the server software first and only then examining the best practices, tips and tricks of a plugin or a theme development.
 
-[^1]WordPress.org: [Blog Tool, Publishing Platform, and CMS](https://wordpress.org/)
+[^1]: WordPress.org: [Blog Tool, Publishing Platform, and CMS](https://wordpress.org/)
 
-[^2]W3Techs.com: [Usage statistics and market share of WordPress for websites](http://w3techs.com/technologies/details/cm-wordpress/all/all)
+[^2]: W3Techs.com: [Usage statistics and market share of WordPress for websites](http://w3techs.com/technologies/details/cm-wordpress/all/all)
 
-[^3]WordPress Codex: [History](http://codex.wordpress.org/History)
+[^3]: WordPress Codex: [History](http://codex.wordpress.org/History)
