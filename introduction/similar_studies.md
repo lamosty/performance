@@ -16,6 +16,17 @@ From the figure 1.4, we observe that if the number of simultaneous visitors exce
 
 ![Figure 1.5: Apache HTTP + PHP, APC opcode caching](../figures/garron-apc-cache.png)
 
+Although using Nginx instead of Apache HTTP yields additional performance gains, they are less notable. Nginx strengths are demonstrated when a website is composed of many resources. However, Garron used a standard WordPress installation, with no extra plugins or complex custom themes.
+
+## WordPress on HHVM vs WordPress on PHP-FPM — WPengine.com
+
+WPengine.com is a company specializing in offering WordPress web hosting services. They have introduced a new hosting plan which differentiates itself from others by using HHVM PHP interpreter instead of the standard PHP. Before releasing the hosting plan, a study, in which the performance of HHVM versus PHP was compared, was undertaken. The study concluded with a fact that HHVM increased the speed of their servers by 600%.[^4] This fact is displayed in the figure 1.6.
+
+![Figure 1.6: WordPress on PHP vs WordPress on HHVM response times](../figures/wpengine-hhvm-php-wordpress.png)
+
+In the study, they found out that HHVM was not 100% stable yet and occasionally stopped working. Their solution to this problem was to redirect the incoming requests to a fallback PHP interpreter while HHVM got restarted. 
+
+<hr/>
 [^1]W3Techs: [Usage statistics and market share of Apache for website](http://w3techs.com/technologies/details/ws-apache/all/all)
 
 [^2]Dan Kegel: [The C10K problem](http://www.kegel.com/c10k.html)
