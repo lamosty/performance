@@ -81,16 +81,16 @@ In some cases, our website is accessed from many different countries, even conti
 
 Another quite useful concept is called load balancing. It is a method of distributing requests to a website across multiple web servers decreasing the overall load on each machine.
 
-[^1]inmotionhosting.com: [Speed up PHP with APC - Alternative PHP Cache](http://www.inmotionhosting.com/support/website/what-is/speed-up-php-with-apc)
+[^1]: inmotionhosting.com: [Speed up PHP with APC - Alternative PHP Cache](http://www.inmotionhosting.com/support/website/what-is/speed-up-php-with-apc)
 
-[^2]Mark Nottingham: [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
+[^2]: Mark Nottingham: [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
 
-[^3]Stack Overflow: [Get number of concurrent requests by browser](http://stackoverflow.com/questions/7456325/get-number-of-concurrent-requests-by-browser)
+[^3]: Stack Overflow: [Get number of concurrent requests by browser](http://stackoverflow.com/questions/7456325/get-number-of-concurrent-requests-by-browser)
 
-[^4]WordPress Plugins: [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
+[^4]: WordPress Plugins: [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
 
-[^5]Google Developers: [Optimizing encoding and transfer size of text-based assets](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer)
+[^5]: Google Developers: [Optimizing encoding and transfer size of text-based assets](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer)
 
-[^6]Stack Overflow: [Which browsers handle `Content-Encoding: gzip` and which of them has any special requirements on encodinq quality?](http://webmasters.stackexchange.com/questions/22217/which-browsers-handle-content-encoding-gzip-and-which-of-them-has-any-special)
+[^6]: Stack Overflow: [Which browsers handle `Content-Encoding: gzip` and which of them has any special requirements on encodinq quality?](http://webmasters.stackexchange.com/questions/22217/which-browsers-handle-content-encoding-gzip-and-which-of-them-has-any-special)
 
-[^7]CSS Wizardy: [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers)
+[^7]: CSS Wizardy: [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers)
