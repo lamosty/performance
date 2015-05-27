@@ -28,7 +28,7 @@ In the study, they found out that HHVM was not 100% stable yet and occasionally 
 
 ## WordPress HHVM vs PHP — xyu.io
 
-Xiao Yu, a web developer, benchmarked \cite{Study:Perf-XYU.io} WordPress running on PHP vs WordPress running on HHVM. His findings show a similar pattern to the findings of WPengine.com???link-to-section???. Outcome of his experimentation can be observed in table below. 
+Xiao Yu, a web developer, benchmarked[^5] WordPress running on PHP vs WordPress running on HHVM. His findings show a similar pattern to the findings of WPengine.com???link-to-section???. Outcome of his experimentation can be observed in table below. 
 
 |           | Response Time | Ok Responses | Errors / Timeouts |
 |-----------|---------------|--------------|-------------------|
@@ -40,7 +40,7 @@ Xiao Yu, a web developer, benchmarked \cite{Study:Perf-XYU.io} WordPress running
 | Change    | 30.6%         | 2.72X        |         -         |
 
 
-"In the numbers above anonymous requests represents hits to various pages without a WordPress logged in cookie which are eligible for Batcache caching whereas authorized requests are hits to the same pages with a login cookie thus bypassing page caching."\cite{Study:Perf-XYU.io}
+"In the numbers above anonymous requests represents hits to various pages without a WordPress logged in cookie which are eligible for Batcache caching whereas authorized requests are hits to the same pages with a login cookie thus bypassing page caching."[^5]
 
 <hr/>
 [^1]W3Techs: [Usage statistics and market share of Apache for website](http://w3techs.com/technologies/details/ws-apache/all/all)
@@ -48,3 +48,7 @@ Xiao Yu, a web developer, benchmarked \cite{Study:Perf-XYU.io} WordPress running
 [^2]Dan Kegel: [The C10K problem](http://www.kegel.com/c10k.html)
 
 [^3]Guillermo Garron: [Wordpress Performance Comparison: Using Nginx, Apache, APC and Varnish in Different Scenarios](http://www.garron.me/en/linux/apache-vs-nginx-php-fpm-varnish-apc-wordpress-performance.html)
+
+[^4]WP Engine: [Announcing WP Engine’s High Availability HHVM Platform: Mercury – Labs Alpha](http://wpengine.com/2014/11/19/hhvm-project-mercury/)
+
+[^5]Xiao Yu: [WordPress Performance with HHVM](http://www.xyu.io/2014/09/wordpress-performance-with-hhvm/)
