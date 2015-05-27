@@ -12,4 +12,3 @@
 * [Source Code Performance Optimizations](source_code_performance_optimizations/README)
 * [Concluding Remarks](concluding_remarks/README)
 * [References](references/README)
-
