@@ -11,10 +11,10 @@ To highlight the seriousness of this issue, imagine a situation in which an e-co
 What is more, Google incorporated site speed in search rankings in 2010[^3], meaning that the more time it takes to load a website, the lower it ranks in Google search results. We believe we have shown the reader enough evidence that optimizing the performance and speed of a website is crucial for its success, especially in today's fast-paced world.
 
 
-[^1]KISSmetrics: [Speed Is A Killer – Why Decreasing Page Load Time Can Drastically Increase Conversions](https://blog.kissmetrics.com/speed-is-a-killer/)
+[^1]: KISSmetrics: [Speed Is A Killer – Why Decreasing Page Load Time Can Drastically Increase Conversions](https://blog.kissmetrics.com/speed-is-a-killer/)
 
-[^2]KISSmetrics: [How Loading Time Affects Your Bottom Line](https://blog.kissmetrics.com/loading-time/)
+[^2]: KISSmetrics: [How Loading Time Affects Your Bottom Line](https://blog.kissmetrics.com/loading-time/)
 
-[^3]Matt Cutts: [Google incorporating site speed in search rankings](https://www.mattcutts.com/blog/site-speed/)
+[^3]: Matt Cutts: [Google incorporating site speed in search rankings](https://www.mattcutts.com/blog/site-speed/)
 
 
