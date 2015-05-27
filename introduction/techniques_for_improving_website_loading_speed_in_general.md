@@ -71,6 +71,16 @@ Images, particularly those produced by the JPEG lossy compression mechanism, can
 
 Before the data is sent back in a response to visitor’s request, its size can be reduced further with a process called data compression.[^5] Most modern web browsers[^6] support GZIP compression of textual data. One of the downsides of performing this process is that additional CPU cycles on both server and client sides are expended in order to compress and uncompress the data.
 
+## Optimizing Images — Image Sprites
+
+Images used for our website's user interface as well as other images can become more optimized for use in the web environment. A mechanism called image spriting[^7] is a procedure during which multiple images get collected and combined into a single larger image — sprite. When a web page is requested, instead of loading tens of user interface icons and images, only this single one is sent back to the user, thus saving additional HTTP requests and bandwidth. When rendering the user interface, icons and images are taken from that single image.
+
+## CDN and Resource Distribution
+
+In some cases, our website is accessed from many different countries, even continents. If we have web servers located only locally, additional milliseconds start to congregate in these situations. To solve this problem, web administrators usually distribute the website’s data across multiple servers positioned in multiple places around the world. CDN services greatly reduce the amount of work needed to accomplish the goal by doing it automatically for us.
+
+Another quite useful concept is called load balancing. It is a method of distributing requests to a website across multiple web servers decreasing the overall load on each machine.
+
 [^1]inmotionhosting.com: [Speed up PHP with APC - Alternative PHP Cache](http://www.inmotionhosting.com/support/website/what-is/speed-up-php-with-apc)
 
 [^2]Mark Nottingham: [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
@@ -82,3 +92,5 @@ Before the data is sent back in a response to visitor’s request, its size can 
 [^5]Google Developers: [Optimizing encoding and transfer size of text-based assets](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer)
 
 [^6]Stack Overflow: [Which browsers handle `Content-Encoding: gzip` and which of them has any special requirements on encodinq quality?](http://webmasters.stackexchange.com/questions/22217/which-browsers-handle-content-encoding-gzip-and-which-of-them-has-any-special)
+
+[^7]CSS Wizardy: [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers)
