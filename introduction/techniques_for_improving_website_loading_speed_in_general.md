@@ -41,6 +41,28 @@ What makes client-side caching different from the server-side caching is that da
 
 On the other hand, we need to implement a mechanism which can handle resource changes on the server-side. When not done properly, some of the visitors might see outdated content due to the reason that the visitor’s browser has not been instructed to revalidate its cache.
 
+## JavaScript and CSS Resource Minification and Combination
+
+At the time of writing (early 2015), a large number of WordPress themes and plugins contain tens or more JavaScript scripts and CSS styles, especially the more professional ones. It is caused by the fact that users like having complex, polished and feature-rich websites. The problem with this fact is twofold:
+
+- There is a limit on the number of concurrent downloads of resources from the same domain. Both Internet Explorer 8 and Google Chrome allow six concurrent downloads while Firefox eight.[^3]
+- Each request carries an overhead of constructing a HTTP packet, sending it to the web server and waiting for the reply.
+
+There are two well-known methods of solving this issue:
+
+1. Resources combination and/or
+2. resources minification.
+
+### Resources combination
+
+Resource combination is a process in which resources on the requested web page are collected into (preferably) single file which is then sent back to the visitor’s browser. There exist two main downsides of this approach. The first is that collecting the resources consumes additional CPU cycles on the server-side. Another disadvantage happens when the owner of the website modifies source code of any of the grouped resource. The whole group has to be gathered together again, including revalidating browser cache if present.
+
+### Resources minification
+
+JavaScript scripts and CSS stylesheets can be minified. Minification is a procedure in which parts of a script or a stylesheet are reduced or completely removed, thus reducing its size and length. Advanced minification tools are capable of refactoring them in a manner that they become even more compact.
+
 [^1]inmotionhosting.com: [Speed up PHP with APC - Alternative PHP Cache](http://www.inmotionhosting.com/support/website/what-is/speed-up-php-with-apc)
 
 [^2]Mark Nottingham: [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
+
+[^3]stackoverflow.com: [Get number of concurrent requests by browser](http://stackoverflow.com/questions/7456325/get-number-of-concurrent-requests-by-browser)
