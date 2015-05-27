@@ -1,5 +1,13 @@
 {
     "plugins": [
         "image-captions"
-    ]
+    ],
+    "pluginsConfig": {
+        "image-captions": {
+            "caption": "_CAPTION_"
+        }
+    }
+    "styles": {
+        "website": "website.css"
+    }
 }
