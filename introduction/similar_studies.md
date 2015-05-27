@@ -42,8 +42,6 @@ Xiao Yu, a web developer, benchmarked[^5] WordPress running on PHP vs WordPress 
 
 "In the numbers above anonymous requests represents hits to various pages without a WordPress logged in cookie which are eligible for Batcache caching whereas authorized requests are hits to the same pages with a login cookie thus bypassing page caching."[^5]
 
-<hr/>
-
 [^1]: W3Techs: [Usage statistics and market share of Apache for website](http://w3techs.com/technologies/details/ws-apache/all/all)
 
 [^2]: Dan Kegel: [The C10K problem](http://www.kegel.com/c10k.html)
