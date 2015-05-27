@@ -6,7 +6,7 @@
         "image-captions": {
             "caption": "_CAPTION_"
         }
-    }
+    },
     "styles": {
         "website": "website.css"
     }
