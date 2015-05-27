@@ -5,7 +5,7 @@
    * [The Problem](introduction/the_problem.md)
    * [About WordPress](wordpress_in_general.md)
        * [General Information](introduction/general_information.md)
-       * [WordPress-based website](introduction/wordpress-based_website.md)
+       * [WordPress-based Website](introduction/wordpress-based_website.md)
    * [Techniques for Improving Website Loading Speed](techniques_for_improving_website_loading_speed)
 * [Configuring Testing Environment](configuring_testing_environment/README.md)
 * [Benchmarking Server Software](benchmarking_server_software/README)
