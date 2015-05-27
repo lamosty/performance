@@ -8,4 +8,4 @@ WordPress, in comparison to other web software and frameworks, is a full-feature
 
 [^2]W3Techs.com: [Usage statistics and market share of WordPress for websites](http://w3techs.com/technologies/details/cm-wordpress/all/all)
 
-[^3WordPress Codex: [History](http://codex.wordpress.org/History)
+[^3]WordPress Codex: [History](http://codex.wordpress.org/History)
