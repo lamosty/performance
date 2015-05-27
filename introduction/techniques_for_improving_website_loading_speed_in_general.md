@@ -61,8 +61,24 @@ Resource combination is a process in which resources on the requested web page a
 
 JavaScript scripts and CSS stylesheets can be minified. Minification is a procedure in which parts of a script or a stylesheet are reduced or completely removed, thus reducing its size and length. Advanced minification tools are capable of refactoring them in a manner that they become even more compact.
 
+## Compression of Images, HTML and Other Resources
+
+### Image compression
+
+Images, particularly those produced by the JPEG lossy compression mechanism, can be compressed further, thus reducing their size while keeping a tolerable quality of picture details. At the time of writing this work, there exist several free of charge and open source WordPress plugins for image compression such as EWWW Image Optimizer.[^4]
+
+### Hypertext documents and other text-based assets compression
+
+Before the data is sent back in a response to visitor’s request, its size can be reduced further with a process called data compression.[^5] Most modern web browsers[^6] support GZIP compression of textual data. One of the downsides of performing this process is that additional CPU cycles on both server and client sides are expended in order to compress and uncompress the data.
+
 [^1]inmotionhosting.com: [Speed up PHP with APC - Alternative PHP Cache](http://www.inmotionhosting.com/support/website/what-is/speed-up-php-with-apc)
 
 [^2]Mark Nottingham: [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
 
-[^3]stackoverflow.com: [Get number of concurrent requests by browser](http://stackoverflow.com/questions/7456325/get-number-of-concurrent-requests-by-browser)
+[^3]Stack Overflow: [Get number of concurrent requests by browser](http://stackoverflow.com/questions/7456325/get-number-of-concurrent-requests-by-browser)
+
+[^4]WordPress Plugins: [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
+
+[^5]Google Developers: [Optimizing encoding and transfer size of text-based assets](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer)
+
+[^6]Stack Overflow: [Which browsers handle `Content-Encoding: gzip` and which of them has any special requirements on encodinq quality?](http://webmasters.stackexchange.com/questions/22217/which-browsers-handle-content-encoding-gzip-and-which-of-them-has-any-special)
