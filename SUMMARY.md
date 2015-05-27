@@ -1,6 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
+* [Optimizing WordPress Performance](README.md)
+* [Introduction](introduction)
    * [The Problem](the_problem.md)
    * [About WordPress](wordpress_in_general.md)
        * [Intro](intro)
