@@ -8,6 +8,8 @@
         }
     },
     "styles": {
-        "website": "website.css"
+        "website": "styles/website.css",
+        "ebook": "styles/website.css",
+        "pdf": "styles/website.css"
     }
 }
