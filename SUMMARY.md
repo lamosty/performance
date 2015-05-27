@@ -7,6 +7,7 @@
        * [WordPress-based website](wordpress-based_website.md)
        * General Information
    * [Techniques for Improving Website Loading Speed](techniques_for_improving_website_loading_speed)
+* General Information
 * [Configuring Testing Environment](configuring_testing_environment/README.md)
 * [Benchmarking Server Software](benchmarking_server_software/README)
 * [Caching](caching/README)
