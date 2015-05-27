@@ -26,6 +26,22 @@ WPengine.com is a company specializing in offering WordPress web hosting service
 
 In the study, they found out that HHVM was not 100% stable yet and occasionally stopped working. Their solution to this problem was to redirect the incoming requests to a fallback PHP interpreter while HHVM got restarted. 
 
+## WordPress HHVM vs PHP — xyu.io
+
+Xiao Yu, a web developer, benchmarked \cite{Study:Perf-XYU.io} WordPress running on PHP vs WordPress running on HHVM. His findings show a similar pattern to the findings of WPengine.com???link-to-section???. Outcome of his experimentation can be observed in table below. 
+
+|           | Response Time | Ok Responses | Errors / Timeouts |
+|-----------|---------------|--------------|-------------------|
+| Anon PHP  | 4.091         | 8,939        | 0.94%             |
+| Anon HHVM | 2.122         | 18,308       | 0.00%             |
+| Change    | 48.1%         | 2.05X        |         -         |
+| Auth PHP  | 20.688        | 457          | 74.17%            |
+| Auth HHVM | 14.359        | 1,242        | 43.45%            |
+| Change    | 30.6%         | 2.72X        |         -         |
+
+
+"In the numbers above anonymous requests represents hits to various pages without a WordPress logged in cookie which are eligible for Batcache caching whereas authorized requests are hits to the same pages with a login cookie thus bypassing page caching."\cite{Study:Perf-XYU.io}
+
 <hr/>
 [^1]W3Techs: [Usage statistics and market share of Apache for website](http://w3techs.com/technologies/details/ws-apache/all/all)
 
