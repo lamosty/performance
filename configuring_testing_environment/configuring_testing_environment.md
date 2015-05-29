@@ -11,3 +11,6 @@ Specification of the testing server are:
 - 300Mbps connectivity
 
 We will be using Ubuntu version 14.04.
+
+[^1]: vpsFree: [Virtuální Privátní Servery svobodně](https://vpsfree.cz)
+[^2]: DigitalOcean: [SSD Cloud Server, VPS Server, Simple Cloud Hosting](https://www.digitalocean.com/)
