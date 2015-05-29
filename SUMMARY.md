@@ -7,7 +7,7 @@
    * [Techniques for Improving Website Loading Speed in General](introduction/techniques_for_improving_website_loading_speed_in_general.md)
    * [Similar Studies](introduction/similar_studies.md)
 * [Configuring Testing Environment](configuring_testing_environment/configuring_testing_environment.md)
-   * Ansible Automation
+   * [Ansible Automation](configuring_testing_environment/ansible-automation.md)
    * [Installing Required Software on the Server](configuring_testing_environment/installing_required_software_on_server.md)
 * [Benchmarking Server Software](benchmarking_server_software/README)
 * [Caching](caching/README)
