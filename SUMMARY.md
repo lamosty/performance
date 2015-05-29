@@ -8,6 +8,7 @@
    * [Similar Studies](introduction/similar_studies.md)
 * [Configuring Testing Environment](configuring_testing_environment/configuring_testing_environment.md)
    * Ansible Automation
+   * Installing Required Software on the Server
 * [Benchmarking Server Software](benchmarking_server_software/README)
 * [Caching](caching/README)
 * [Source Code Performance Optimizations](source_code_performance_optimizations/README)
