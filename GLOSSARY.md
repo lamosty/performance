@@ -11,3 +11,7 @@ the process of putting demand on a system or device and measuring its response; 
 ## server resources
 
 the amount of CPU and RAM your Web site can use on the server that you are on
+
+## dummy data
+
+information that does not contain any useful data, but serves to reserve space where real data is nominally present; can be used as a placeholder for both testing and operational purposes (Wikipedia)
