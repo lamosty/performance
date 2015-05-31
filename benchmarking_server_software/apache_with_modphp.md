@@ -38,9 +38,17 @@ It is crucial to notice that the blue bars in the Memory bar section show cached
 
 From both screenshots, we can observe that Apache HTTP, represented by the process `/usr/sbin/apache2` is, at first, just warming up, spawning three child processes and under heavy load, consuming the CPU completely and taking about 770 megabytes of memory. It does not tell us much without comparing it to the results of benchmarking different server stacks, what we are going to do shortly. 
 
-Loader.io testing results page[^5] also shows us more statistics about the test:
+Loader.io testing results page[^3] also shows us more statistics about the test:
 
 - **Average response time**: 1229 ms
 - **Min/Max response times**: 144 / 4660 ms
 - **Count of successful responses**: 2178
+
+[^1]: Wikipedia: [Apache HTTP Server](http://en.wikipedia.org/wiki/Apache_HTTP_Server)
+
+[^2]: WordPress-Ansible: [Apache HTTP server default configuration file](https://github.com/lamosty/wordpress-ansible/blob/master/roles/apache/templates/apache2.conf.j2)
+
+[^3]: Loader.io: [Apache2 mod_php Loader.io testing results page](http://ldr.io/1IQVNXz)
+
+[^4]: Htop: [an interactive process viewer for Linux](http://hisham.hm/htop/)
 
