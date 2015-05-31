@@ -16,7 +16,7 @@ Analogous to the load testing Apache with mod_php, we create a new test on Loade
 
 ![Figure 3.8: Nginx with HHVM: clients versus average response time](../figures/Nginx_HHVM.png)
 
-Reviewing the above chart, we can see that average response times have decreased from the 2-second to under 1-second levels. When 200 simultaneous requests are sent to the server, we receive them after 800 ms in average. This means that just by using HHVM instead of PHP-FPM, the performance of our server increases 2,5 times. What is more, the count of successful responses leaps to around 5800, thus nearly tripling the throughput of the server.[^3]
+Reviewing the above chart, we can see that average response times have decreased from the 2-second to under 1-second levels. When 200 simultaneous requests are sent to the server, we receive them after 800 ms in average. This means that just by using HHVM instead of PHP-FPM, the performance of our server increases 2,5 times. What is more, the count of successful responses leaps to around 5800, thus nearly tripling the throughput of the server.[^2]
 
 ![Figure 3.9: Nginx with HHVM: Htop process viewer 1 second into test](../figures/Nginx_HHVM_1s.png)
 
@@ -30,10 +30,10 @@ If this was a competition, choosing Nginx with HHVM as your web-serving stack wo
 
 Our standard test did not benchmark HHVM's full potential, as we could observe from the figure 3.8. We will make the WordPress-powered site more complex. The new installation will include:
 
-- several plugins, such as WooCommerce, Jetpack, WordPress SEO by Yoast and others[^4]
-- a free e-commerce theme Storefront[^5]
+- several plugins, such as WooCommerce, Jetpack, WordPress SEO by Yoast and others[^3]
+- a free e-commerce theme Storefront[^4]
 - WooCommerce dummy data
-- WP Test dummy data[^6]
+- WP Test dummy data[^5]
 
 In order to have the advanced WordPress configured, run the "wordpress_advanced.yml" playbook:
 
@@ -41,7 +41,18 @@ In order to have the advanced WordPress configured, run the "wordpress_advanced.
 ansible-playbook -i hosts wordpress_advanced.yml
 ```
 
-We configured the Loader.io test to send requests to two different URL addresses, the root of the server and to "?product=woo-ninja-3" (a WooCommerce product page).[^7]. The results can be seen in the figure 3.11. Average response times declined from under 1-second to around 7-second levels, which is also reflected in the count of successful responses (1237 versus 5769). Installing complex WordPress plugins and themes has clearly a profound impact on the site's performance.
+We configured the Loader.io test to send requests to two different URL addresses, the root of the server and to "?product=woo-ninja-3" (a WooCommerce product page).[^6]. The results can be seen in the figure 3.11. Average response times declined from under 1-second to around 7-second levels, which is also reflected in the count of successful responses (1237 versus 5769). Installing complex WordPress plugins and themes has clearly a profound impact on the site's performance.
 
 ![Figure 3.11: Nginx with HHVM and advanced WordPress: clients versus average response time](../figures/Nginx_HHVM_WP-advanced.png)
 
+[^1]: Wikipedia: [HipHop Virtual Machine](http://en.wikipedia.org/wiki/HipHop_Virtual_Machine)
+
+[^2]: Loader.io: [Nginx HHVM Loader.io testing results page](http://ldr.io/1cbbomp)
+
+[^3]: WordPress-Ansible: [Ansible group variables file on wordpress-ansible GitHub repository](https://github.com/lamosty/wordpress-ansible/blob/master/group_vars/webservers)
+
+[^4]: Automattic: [Storefront. The Official WooCommerce Theme](http://www.woothemes.com/storefront/)
+
+[^5]: WP Test: [The Best Tests For WordPress](http://wptest.io/)
+
+[^6]: Loader.io: [Nginx HHVM with advanced WordPress Loader.io testing results page](http://ldr.io/1IQW6le)
