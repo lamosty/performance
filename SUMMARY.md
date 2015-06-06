@@ -16,6 +16,7 @@
    * [Nginx with HHVM](benchmarking_server_software/nginx_with_hhvm.md)
 * [Caching](caching/caching.md)
    * [Database Caching](caching/database_caching.md)
+   * Page Caching
 * [Source Code Performance Optimizations](source_code_performance_optimizations/README)
 * [Concluding Remarks](concluding_remarks/README)
 * [References](references/README)
