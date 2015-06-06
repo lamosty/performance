@@ -18,7 +18,7 @@
    * [Database Caching](caching/database_caching.md)
    * [Page Caching](caching/page_caching.md)
    * Browser Caching
-* [Source Code Performance Optimizations](source_code_performance_optimizations/README)
+* [Source Code Performance Optimizations](source_code_performance_optimizations/source_code_performance_optimizations.md)
 * [Concluding Remarks](concluding_remarks/README)
 * [References](references/README)
 
