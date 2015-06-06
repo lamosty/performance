@@ -1,2 +1,11 @@
 # Browser Caching
 
+Browser caching (also referred to as client-side caching) is the process of storing data in the client's browser memory. If we store the resources (CSS, JS, images and fonts) and HTML pages in the client's browser cache, the browser doesn't have to load the resources from our servers, therefore saving time and bandwidth as well as server processing power. The main disadvantage of browser caching is that if a resource was changed, the cache needs to be cleared (revalidated) manually. Fortunately, the easiest and most straightforward method to revalidate browser cache is to rename the resource. User's browser will assume that it is an entirely new one, thus downloading and caching it again.
+
+W3 Total Cache, a popular WordPress performance-optimizing plugin, comes with a browser caching feature. We can specify the amount of time after which the cached resource will expire and be re-downloaded from our site. The plugin will then generate a Nginx configuration file which has to be included in the site's Nginx server block[^1] as the information about browser caching is sent in HTTP headers. If we also enable minification, we can clear the browser cache by clicking on the "Update media query strings" button in the W3 Total Cache administration dashboard. It works by either renaming the resource or appending a different string to the end of the resource's URL address (identifier), (after the "?" — also called a query string[^2]).
+
+For testing purposes, we can either use browser's developer tools or a web service such as GTmetrix. Opening the Developer Tools in Google Chrome browser and navigating to the Network tab, we can observe resources of the site being downloaded. If a resource has been cached in the browser, it will show as "(from cache)" in the column "Size". After submitting a site to GTmetrix for a performance report, it will inform us about the state of browser caching (among other useful statistics) — which resources are and are not cached on our site.
+
+[^1]: Nginx Community: [ServerBlockExample](http://wiki.nginx.org/ServerBlockExample)
+
+[^2]: Wikipedia: [Query string](http://en.wikipedia.org/wiki/Query_string)
