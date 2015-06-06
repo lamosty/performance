@@ -1,2 +1,3 @@
 # Source Code Performance Optimizations
 
+Since we have compared different kinds of server stacks in the third chapter and discussed the usage of caching in the fourth one, we will now look into optimizing the performance of source code of a WordPress-based website. The first step is to detect the underperforming parts of the site (profiling). Then, we can begin to optimize them by employing various techniques and following best practices.
