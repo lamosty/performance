@@ -18,4 +18,4 @@ the amount of CPU and RAM your Web site can use on the server that you are on
 
 ## server stack
 
-the amount of CPU and RAM your Web site can use on the server that you are on
+a set of software subsystems or components needed to create a complete platform such that no additional software is needed to support applications; applications are said to "run on" or "run on top of" the resulting platform (Wikipedia)
