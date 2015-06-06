@@ -21,3 +21,9 @@ With our three-CPU testing server, we were able to serve 1000 concurrent request
 ![Figure 4.2: Nginx with FastCGI caching: Htop process viewer 9 seconds into test](../figures/Nginx_FastCGI_caching_9s.png)
 
 9 seconds into the benchmarking (around 750 simultaneous requests), the server's CPU usage is at less than one-quarter. The single cached page is not taking large amounts of memory, as can be seen in RAM usage (72 MB out of 4096). We can confidently conclude this section by saying that, as was stated before, Nginx is an efficient web-serving software.
+
+[^1]: Nginx: [Module ngx_http_fastcgi_module](http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html)
+
+[^2]: Nginx: [Module ngx_http_core_module](http://nginx.org/en/docs/http/ngx_http_core_module.html)
+
+[^3]: Loader.io: [Nginx HHVM Advanced FastCGI caching: Load Testing With loader.io](http://ldr.io/1cI1XLY)
