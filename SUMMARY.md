@@ -17,7 +17,7 @@
 * [Caching](caching/caching.md)
    * [Database Caching](caching/database_caching.md)
    * [Page Caching](caching/page_caching.md)
-   * Browser Caching
+   * [Browser Caching](caching/browser_caching.md)
 * [Source Code Performance Optimizations](source_code_performance_optimizations/source_code_performance_optimizations.md)
    * [Profiling source code with XHProf](source_code_performance_optimizations/profiling_source_code_with_xhprof.md)
    * [Techniques and Best Practices](source_code_performance_optimizations/techniques_and_best_practices.md)
