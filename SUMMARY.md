@@ -14,7 +14,7 @@
    * [Apache with mod_php](benchmarking_server_software/apache_with_modphp.md)
    * [Nginx with PHP-FPM](benchmarking_server_software/nginx_with_php-fpm.md)
    * [Nginx with HHVM](benchmarking_server_software/nginx_with_hhvm.md)
-* [Caching](caching/README)
+* [Caching](caching/caching.md)
 * [Source Code Performance Optimizations](source_code_performance_optimizations/README)
 * [Concluding Remarks](concluding_remarks/README)
 * [References](references/README)
