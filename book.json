@@ -1,7 +1,8 @@
 {
     "plugins": [
         "image-captions",
-        "disqus"
+        "disqus",
+        "ga"
     ],
     "pluginsConfig": {
         "image-captions": {
@@ -9,6 +10,9 @@
         },
         "disqus": {
             "shortName": "wp-performance"
+        },
+        "ga": {
+            "token": "UA-64793694-1"
         }
     },
     "styles": {
